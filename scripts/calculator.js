@@ -40,7 +40,7 @@ sanLib.onClick('class', 'san-calc-key', function (e) {
     } else if (keyValue === "=") {
         if (_currentOperation !== "=") {
             calculateAndUpdate(keyValue);
-            _currentNumber = _finalNumber;
+            _currentNumber = _finalAnswer;
         }
     } else if (keyValue === "C") {
         variablesInitialize();
